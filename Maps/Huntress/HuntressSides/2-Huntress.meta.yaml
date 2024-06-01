@@ -1,0 +1,26 @@
+Mountain:
+    Idle:
+        Position: [ -4.473, 4.937, 4.411 ]
+        Target: [ -2.999, 4.343, 3.196 ]
+    Select:
+        Position: [ -4.655, 3.929, 4.378 ]
+        Target: [ -2.978, 4.149, 3.311 ]
+    Zoom:
+        Position: [ -3.272, 3.682, 2.682 ]
+        Target: [ -1.472, 4.127, 1.933 ]
+    Cursor: [ -2.407315, 4.364232, 2.323102 ]
+    # Available: 0, 1, 2
+    State: 0
+
+CompleteScreen:
+    Atlas: "Endscreens/Huntress/HuntressSides"
+    Start: [ 0.0, 0.0 ]
+    Center: [ 0.0, 0.0 ]
+    Offset: [ 0.0, 0.0 ]
+    Layers:
+      - Type: "layer"
+        Images: [ "2_Huntress" ]
+        Position: [ 0.0, 0.0 ]
+        Scroll: [ 0.0 ]
+
+    

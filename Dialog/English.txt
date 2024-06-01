@@ -1,0 +1,686 @@
+#  Commands
+#  # symbol means a comment, use \# to show a # symbol in dialog
+#  . symbol means a pause. Use \. to show a . character
+#  {n} newline
+#  {~}wavy text{/~}
+#  {!}impact text{/!}
+#  {>> x}character display speed
+#  {0.5} 0.5 second pause, change to other floats for other waits
+#  {big}this text is big{/big}
+#  [NAME direction options] display a dialog box of a character
+#  names: MADELINE, THEO, MADELINE_PHONE, MADELINE_MIRROR, etc
+#  options: 
+#      flip/upsidedown (flips image), left/right (where to place image)
+#      pop (makes the image "pop")  
+#      expressions for Madeline:
+#          normal, sad, sadder, upset, angry, distracted, surprised, panic, determined, determinedclosed, together, togetherZoom, deadpan
+
+# --- Misc --- #
+	Huntress_HuntressSides_area_clear= D-Side Complete
+	sakentime=
+	Well, I hope this place is not as hard as I remember it being...
+
+# --- Tutorial Titles --- #
+	arphimigon_dsides_hyper_title= Hyper
+	arphimigon_dsides_hyperbhop_title= Hyper Bunnyhop
+	arphimigons_dsides_dreamgrab_title= Dream Grab
+	arphimigon_dsides_neutraldrop_title= Air Drop
+	arphimigon_dsides_wallbounce_title=Wall Bounce
+
+# --- Postcards --- #
+	Huntress_HuntressSides_0_Huntress_postcard= This is meant to be a difficult map. Don't give up!
+	Huntress_HuntressSides_1_Huntress_postcard= Remember to use hypers, wavedashes, supers and wallbounces!
+
+# --- Checkpoints --- #
+	Huntress_HuntressSides_1_Huntress_6= Mind the spikes!
+	Huntress_HuntressSides_1_Huntress_9b= Pushing through the city
+
+	dsides_2_OldSite_B01= Unstable Bridge
+	dsides_2_OldSite_C01= Chaser Halls
+	dsides_2_OldSite_D01= Combination
+	dsides_2_OldSite_E01= Culmination
+	dsides_2_OldSite_gold00= Mind Field
+
+	dsides_3_Resort_B01= Lobby
+	dsides_3_Resort_C01= Annual Clean
+	dsides_3_Resort_D01= Chimney
+	dsides_3_Resort_E01= Rooftop
+	dsides_3_Resort_F01= Culmination
+	dsides_3_Resort_gold00= Mind Field
+
+	dsides_4_Ridge_B01= Gusty Split
+	dsides_4_Ridge_C01= High Altitudes
+	dsides_4_Ridge_D01= Play Ball!
+	dsides_4_Ridge_E01= Panic Begins
+	dsides_4_Ridge_F01= Culmination
+	dsides_4_Ridge_gold00= Mind Field
+
+	dsides_5_Temple_B01= Lock
+	dsides_5_Temple_C01= Tourist Attraction
+	dsides_5_Temple_D01= Weight Lifting
+	dsides_5_Temple_E01= Culmination
+	dsides_5_Temple_gold00= Mind Field
+
+	dsides_6_Reflection_B01= Pinball
+	dsides_6_Reflection_C01= Freefalling
+	dsides_6_Reflection_D01= Wet Dry Pool
+	dsides_6_Reflection_E01= Duel
+	dsides_6_Reflection_F01= Culmination
+	dsides_6_Reflection_gold00= Mind Field
+
+	dsides_7_Summit_B01= 500 M
+	dsides_7_Summit_C01= 1000 M
+	dsides_7_Summit_D01= 1500 M
+	dsides_7_Summit_E01= 2000 M
+	dsides_7_Summit_F01= 2500 M
+	dsides_7_Summit_G01= 3000 M: Down Wind
+	dsides_7_Summit_G02= 3000 M: Up Wind
+	dsides_7_Summit_G03= 3000 M: No Wind
+	dsides_7_Summit_H01= Core Of The Sun
+
+	dsides_9_Core_c02r01= Quiet And...
+	dsides_9_Core_c03r01= Through The Fire And...
+
+
+# --- Chapter Titles --- #
+	Huntress_HuntressSides= Huntress's D-Sides
+
+	Huntress_HuntressSides_0_Huntress= Prolouge
+	HuntressSides_0_Huntress= Prolouge
+
+	Huntress_HuntressSides_1_Huntress= Uninhabitable City
+	HuntressSides_1_Huntress= Uninhabitable City
+
+	Huntress_HuntressSides_2_Huntress= Ruined Site
+	HuntressSides_2_Huntress= Ruined Site
+# --- Poems --- #
+	poem_Huntress_Sides_0_Huntress_A= Top text
+	poem_Huntress_Sides_1_Huntress_A= No more spikes >:(
+	poem_dsides_2_OldSite_A= Dreaming
+	poem_dsides_3_Resort_A= Endurance
+	poem_dsides_4_Ridge_A= Cloudy Memories
+	poem_dsides_5_Temple_A= Weight Lifting
+	poem_dsides_6_Reflection_A= Resurrection{n}Confirm - Gold Room{n}Grab+Confirm-Exit Map
+	poem_dsides_7_Summit_A= A New Journey's Beginning
+	poem_dsides_8_Thanks_A= Wrong way, go back!
+	poem_dsides_9_Core_A= Beautiful Spaghetti
+
+
+# --- Prologue --- #
+	Huntress_Sides_Prolouge_1=
+	[madeline left normal]
+		Hello Granny!  
+	[granny right normal]
+		Hello Madeline!
+	[madeline left surprised]
+		Secret tunnel!!!
+	[granny right normal]
+		Secret tunnel!!!
+	[madeline left normal]
+		I'll be on my way now :)
+	
+# --- Forsaken City --- #
+	arphimigon_dsides_city_wrong_car=
+		[madeline left deadpan]
+			Wrong car.
+
+	arphimigon_dsides_city_theo=
+		[madeline left normal]
+			Hello, Theo! What are you doing here?
+		[theo right normal]
+			Madeline! Don't worry about me, just doing a little exploring in old places.
+		[madeline left sad]
+			Oh, I see
+		[theo right normal]
+			I Brought you a berry!
+		[madeline left normal]
+			Thank you so much Theo Celeste!!!
+		[theo right serious]
+			My name is not "Theo Celeste", it is just Theo.
+		[madeline left normal]
+			That's what you think!
+
+		Memorial=
+		[madeline left sad]
+		This memorial is dedicated to those who never gave up
+		and pushed through the bullshit that can happen in 
+		life (And my celeste maps)
+
+	arphimigon_dsides_city_theo_berry=
+		[theo right normal]
+			I hope you didn't make your pie with random berries that you found.
+		
+	arphimigon_dsides_city_herewego=
+		[madeline left determined]
+		Time to bring it home.
+
+	arphimigons_dsides_city_seeker=
+		[madeline left surprised]
+			The infamous Carrie Seeker?{n}
+			WHAT IS THAT DOING HERE?
+			
+
+	arphimigons_dsides_city_stuck=
+		[madeline left normal]
+			I am now stuck forever.
+
+	arphimigons_dsides_city_mindfield_granny=
+		[granny left normal]
+			I see you're here for the long haul.	
+		[madeline right determined]
+			I am.
+		[madeline right normal]
+			It would be nicer to get out of this glitchy nightmare sooner rather than later though...
+		[madeline right distracted]
+			Where is this place anyway?
+		[granny left normal]
+			This is a part of your Mind Field. Think of it as a deep dream.
+		[madeline right normal]
+			I don't really understand, but that's fine.
+			Thanks for the help!
+
+	arphimigons_dsides_mindfield_memorial=
+		 -- CELESTE MINDFIELD --
+		This memorial dedicated to PixelBlitz
+		Who completed all A1D golden strawberries. 
+
+	arphimigons_dsides_city_mindfield_creaturef=
+		[madeline left normal]
+			Hello, big bear!
+			What's your name?
+		[creaturef right normal]
+			I do not have a name, but you may call me... "F".
+		[creaturef right normal]
+			Think of it like "friend", or "foe".
+		[madeline left normal]
+			Ok, F!
+			It seems like there's no where else to go.
+		[creaturef right normal]
+			Here? There is nothing else except that switch.
+			If you leap into the void below, you may wake up.
+		[madeline left normal]
+			Thanks, F!
+
+	arphimigons_dsides_city_mindfield_gbj=
+		[madeline left normal]
+			I'm a pro hacker.
+
+# --- Old Site--- #
+	BADELINE_1=
+		[badeline right concerned]
+			{+MADELINE}...
+		[madeline left normal]
+			Haiiiiiiiiiiiiiiii
+		[badeline right concerned]
+			This place sure does have alot of spikes...
+		[madeline left normal]
+			anddddddddd????
+		[badeline right sigh]
+			...
+		[badeline right freakCalt]
+			YOU ARE GOING TO GET US KILLED!!!
+		[madeline left normal]
+			nuh uh
+		[badeline right freakCalt]
+			YUH HUH!
+		[madeline left angry]
+			NUH UH!!
+		[badeline right freakCalt]
+			YUH UH!!
+		[madeline left angry]
+			Begone Demon!
+		[badeline right scoff]
+			Oh i'll "begone" alright...
+	Baeline_2=
+		[badeline right scoff]
+			Morning sleepyhead.
+		[madeline left surprised]
+			Ahhhhhhhhh!!!
+		[badeline right concerned]
+			Are you alright {+MADELINE}???
+		[madeline left sadder]
+			No, I just had a scary dream...
+		[madeline left sad]
+			I feel like I've had it before, but it wasn't as bad as this time
+		[badeline right concerned]
+			Oh well {+MADELINE},{n} you can have a better sleep at the {# 7CFF4B}Celestial Resort {#}
+		[madeline left normal]
+			Ew no, I hate that place
+		[badeline right scoff]
+			Me too lol, I was just kidding
+
+	Glarg=
+		[theo right dust]
+			Glargle {n} BLrag {n} Blrag
+		[madeline left normal]
+			What?
+		[theo right dust]
+			Glargle Blarg {n} blagre charg blarg {n} flarg
+		[madeline left normal]
+			Oh ofcourse!
+
+	arphimigons_dsides_site_mindfield_payphone=
+		[MOM_PHONE right normal]
+			Hello? Who is this?
+		[madeline_phone left sad]
+			Hello, mom.
+		[MOM_PHONE right normal]
+			Oh hello dear! It's good to hear your voice again.
+		[madeline_phone left sad]
+			Mom, I'm having trouble.
+		[MOM_PHONE right concerned]
+			That's ok dear. Tell me what's going on.
+		[madeline_phone left sad]
+			I just... I'm struggling.
+			It's been difficult lately.
+		[MOM_PHONE right concerned]
+			I understand dear. Things tend to get worse before they get better.
+		[madeline_phone left sad]
+			Yeah, they do.
+		[MOM_PHONE right normal]
+			I'm sure things will go well soon.
+			Perhaps... you can come home for a while? We can make your favourite.
+		[madeline_phone left normal]
+			Pie?
+		[MOM_PHONE right normal]
+			Pie.
+		[madeline_phone left normal]
+			Alright. I'll get some ingredients.
+		[MOM_PHONE right normal]
+			Strawberries?
+		[madeline_phone left normal]
+			Of course.
+		[MOM_PHONE right normal]
+			Great! I'll see you soon, dear.
+		[madeline_phone left normal]
+			See you soon!
+
+# --- Resort --- #
+		naptime=
+		[madeline left deadpan]
+			Naptime.
+
+	arphimigons_dsides_resort_rooftop_leave=
+		[madeline left angry]
+			Why did I even come up here? Oshiro never learns!
+			I'm leaving!
+			Goodbye, rooftop!
+
+	arphimigons_dsides_resort_chase_begin=
+		[madeline left surprised]
+			Hey! We're not enemies anymore!
+
+	arphimigons_dsides_resort_chase_damnit=
+		[madeline left surprised]
+			Oshiro!
+
+	arphimigons_dsides_resort_chase_stop=
+		[madeline left panic]
+			Oshiro please, stop!
+
+	arphimigons_dsides_resort_chase_berryshiro=
+		[madeline left panic]
+			Oshiro! This is an optional strawberry room! Why are you still chasing me?
+
+	arphimigons_dsides_resort_chase_fine=
+		[madeline left determined]
+			Fine! I'll keep bonking your head until you stop!
+
+	arphimigons_dsides_resort_chase_is_over=
+		[madeline left normal]
+			Seems like Oshiro is gone!
+		
+	arphimigons_dsides_resort_mindfield_creaturef=
+		[creaturef right normal]
+			Welcome back.
+		[madeline left normal]
+			Hello, F!
+		[creaturef right normal]
+			You did a good job there. I'm proud of you.
+		[madeline left normal]
+			Thanks.
+		[madeline left distracted]
+			Why is Mister Oshiro still attacking me?
+		[creaturef right normal]
+			You have to calm down, control your thoughts.
+			Until you stop attacking yourself, nor will he.
+		[madeline left distracted]
+			...
+		[madeline left determined]
+			Ok.
+			Thanks again, F!
+
+# --- Ridge --- #
+	arphimigons_dsides_ridge_no_secret_found=
+		[madeline left deadpan]
+			Where are the secrets?
+
+	arphimigon_dsides_ridge_wind_crouch=
+		Crouch in horizontal wind to stop being pushed by it!
+
+	arphimigons_dsides_ridge_combberry=
+		[madeline left deadpan]
+		Ha. Very funny berry hidden in a wall.
+
+        arphimigons_dsides_ridge_mindfield_gondola_queen=
+		[madeline left normal]
+                    I am the gondola queen!
+
+	arphimigons_dsides_ridge_corrupt_witness=
+		[madeline left sad]
+			I don't have much time left.
+			I need to get off of this mountain, quickly.
+		
+	arphimigons_dsides_ridge_mindfield_creaturef=
+		[madeline left normal]
+			Hi, F!
+		[creaturef right normal]
+			Hello, Madeline.
+		[madeline left normal]
+			I've really gotten the hang of this "not dying" thing.
+		[creaturef right normal]
+			Great!
+		[madeline left normal]
+			Do you think I won't get reset at the Summit now?
+		[creaturef right normal]
+			I cannot know, but it surely helps you getting there in the first place.
+		[madeline left normal]
+			Yeah, true.
+		[creaturef right normal]
+			You are better at climbing now than you have ever been.
+			I'm looking forward to seeing what you do next.
+		[madeline left determined]
+			Me too.
+
+# --- Temple --- #
+	arphi_dsides_theo_speed=
+		[theo right normal]
+			I always keep a copy of Mello's latest mixtape on me.
+
+	arphi_dsides_theo_painless=
+		[theo right normal]
+		This crystal must have smoothing powers. I haven't felt you throwing me around at all!
+
+	arphimigons_dsides_temple_theo_hard_room=
+		[theo right normal]
+			This looks like a difficult room.{n}
+			Good thing we're the main characters!
+	arphi_dsides_temple_theo_yeet=
+		[theo right worried]
+		Madeline, I'm not sure that this is a good idea.
+
+	arphi_dsides_temple_theo_not_again=
+		[theo right worried]
+		I don't like where this is going.
+
+        arphi_dsides_temple_theo_eternal=
+		[theo right wtf]
+                One of those again.{n}
+                At least it can't harm us. 
+
+        arphi_dsides_theo_takeback=
+		[theo right wtf]
+                I take that back.
+
+        arphimigon_dsides_theo_clueless=
+		[theo right normal]
+                You have to tell me how you got so strong!
+
+        arphimigons_dsides_crush_volume_warning=
+		[madeline left normal]
+                Volume Warning! (seriously)
+               
+
+	arphimigons_dsides_temple_intro=
+		[madeline left sad]
+			Here we are.
+			I would be happy if I never saw this place again.
+			Ok, here goes nothing.
+
+	arphimigons_dsides_temple_outside=
+		[madeline left sad]
+			Here we are.
+			My last moments of pure recall,{n}the calm before the storm.
+			I won't let anything stop me this time.
+			I will reach the top, and I will be set free.
+			Into the deeper dream I go.
+
+	arphimigons_dsides_temple_face_your_fears=
+		[madeline left sad]
+			We can't just run away from our fears.{n}Come on, Maddy!
+
+# --- Reflection --- #
+	arphimigons_dsides_reflection_little_trolling=
+		[madeline left deadpan]
+			They do a little trolling.
+	arphimigons_dsides_precision_feathers=
+		[madeline left deadpan]
+			Due to complaints, management has moved this room. It's optional now.
+
+        arphimigon_dsides_reflection_bumper_boost_title= Bigger Bumper Boost
+
+	arphimigons_dsides_reflection_hydrate=
+		[madeline left normal]
+			Don't forget to hydrate and drink water!
+
+	arphimigons_dsides_reflection_mindfield_creaturef=
+		[madeline left normal]
+			Another one down!
+		[creaturef right normal]
+			Amazing.
+			It seems like you're coming close to the end.
+		[madeline left determined]
+			It seems like it.
+		[creaturef right normal]
+			I don't think very much can stop you now!
+		[madeline left normal]
+			I'm going to wake up.
+		[creaturef right normal]
+			Let's hope so.
+
+# --- Summit --- #
+	arphimigons_dsides_summit_wrong_car=
+		[madeline left deadpan]
+			Hello again.
+
+	arphimgons_dsides_resort_orb_oshiro=
+		[oshiro right normal]
+			Hello again!
+		[madeline left normal]
+			Hello Mr. Oshiro! What are you doing here?
+		[oshiro right normal]
+			I saw you coming from below, and decided to watch!
+		[oshiro right drama]
+			I forgot to clean this room anyway!
+		[madeline left normal]
+			Okay then. Thanks for the support.
+	
+	arphimigons_dsides_summit_3000m_checkpoint=
+		[madeline left determinedclosed]
+			This is it, the final stretch.
+			Take a deep breath.
+		[madeline left determined]
+			It's time to finish this.
+
+	arphimigon_dsides_summit_granny_end=
+		[granny right normal]
+			You did well.
+		[granny right laugh]
+			I knew you had it in you!
+		[madeline left sadder]
+			I thought I'd get stuck near the end there. This mountain doesn't feel real anymore...
+		[granny right normal]
+			You care if this is real? You made it and that's what matters.
+		[madeline left normal]
+			I did! Even if you aren't really here, thank you for watching over me.
+		[granny right laugh]
+			You're welcome! I don't remember helping you this time, but it's the thought that counts.
+		[granny right normal]
+			Anyway. It's about time you head off.
+		[madeline left normal]
+			Thanks again!
+
+	arphimigon_dsides_summit_theo_end=
+		[theo right normal]
+			That was amazing!
+		[madeline left normal]
+			Thanks! It's good to know that you're still looking out for me.
+		[theo right thinking]
+			As always!
+		[theo right serious]
+			...but it's really all you, looking out for your own self.
+		[madeline left sad]
+			What do you mean?
+		[theo right normal]
+			You just need a little push to get back into your groove when things go south. I give you that push.
+		[theo right wtf]
+			I think that's what I mean.
+		[madeline left normal]
+			Either way, thanks for supporting me, Theo!
+		[theo right normal]
+			My pleasure.
+		[theo right excited]
+			Call me next time you are about to climb the mountain again, I could go for the trip!
+	
+	arphimigon_dsides_summit_oshiro_end=
+		[madeline left normal]
+			Hello, Mr. Oshiro! Why are you over here instead of with the others?
+		[oshiro right nervous]
+			Don't worry about me.
+		[oshiro right normal]
+			Someone has to clean this floor!
+		[madeline left normal]
+			I'm glad to see you've become a lot more comfortable with yourself.
+		[oshiro right normal]
+			It was all thanks to you!
+		[madeline left normal]
+			How is the hotel?
+		[oshiro right sideworried]
+			As soon as you left, I got straight to cleaning up that {~}HUGE{/~} mess.
+		[madeline left determined]
+			Awesome.
+		[madeline left together]
+			If you need any more help, I'm always here.
+		[oshiro right drama]
+			I'm thinking of reopening soon and expanding my business.
+		[madeline left normal]
+			I'd love to hear more about it when we're back at the hotel.
+		[oshiro right normal]
+			Thank you again, Madeline.
+		[madeline left normal]
+			You are welcome!
+
+	arphmigons_dsides_summit_behind_speens_in_clouds=
+		[madeline left normal]
+			The clouds are so fluffy. This is great!
+
+	arphimigon_dsides_summit_secret_boost=
+		{trigger 0}
+		[madeline left peaceful]
+			{2}This, {0.1} this was a ride. 
+		[madeline left peaceful]
+			I want to thank all my friends who helped me along the way.
+		[madeline left determined]
+			It's over, it is time to wake up.
+		{trigger 1}
+
+	arphmigons_dsides_summit_core_collection=
+		Hello! Creator here!
+		These rooms used to be the reward for goldening the map, but were moved into another map.
+		They're still accessible (via debug) to preserve the work of people who got here and played them.
+		Thank you for playing!
+	
+	arphimigons_dsides_summit_gold=
+		[creaturef right normal]
+			I'm going to be honest with you.{n}I don't have an idea for a gold section for this map.
+			I tried to make this a cassette section but the music did NOT like it.
+			Plus, the pacing of the maps ending was kinda ruined.
+			All that aside, you did great!{n}Thanks for playing and good job beating the ultimate challenge of the pack!
+			Instead of spending even more time coming up with something for this,{n} how about I go work on the next cool map instead?
+			Have fun playing more mods! Touch the catsnug to end the level.
+		
+
+	arphimigons_dsides_summit_gold_water=
+		[creaturef right normal]
+			Can't let the poor cat die of thirst, can we?
+		
+# -- THANKS -- #
+	arphimigons_dsides_thanks_beepboop=
+		[madeline left distracted]
+			Seems like it isn't working anymore.
+		[madeline left distracted]
+			Hmmm...
+		[madeline left normal]
+			boooop {0.3}beeep {0.3}beeEEP {0.3}BOOop {0.3}boop {0.3}beep
+		[madeline left normal]
+			...
+		[madeline left peaceful]
+			{1}That was fun.
+
+	arphimigons_dsides_thanks_signal=
+		[madeline left normal]
+			I don't have a phone, but I imagine the signal is great here.
+		[madeline left peaceful]
+			Beep boop.
+
+	arphimigons_dsides_thanks_avalanche=
+		[madeline left normal]
+			Seems like there was an avalanche here before.
+		[madeline left normal]
+			Luckily for me, the magical stone protected my car.
+		[madeline left peaceful]
+			Thanks, magic, for making the stone so strong.
+		[madeline left peaceful]
+			Thanks, stone, for protecting my car.
+		[madeline left peaceful]
+			Thanks, car, for helping me travel places.
+
+
+	arphimigons_dsides_thanks_starter_meal=
+		[madeline left normal]
+			Thank you for playing Arphimigon's D-Sides!
+		[madeline right normal]
+			I hope you had fun and are hyped to play more Celeste mods!
+		[madeline left normal]
+			If you're looking for a challenge, try getting the Shielded Golden Strawberry in City D!
+		[madeline right normal]
+			It's not as bad as it sounds, there's a shield that lets you take one death per room!
+		[madeline left normal]
+			Perhaps try out the original D-Sides pack, made by Monika! 
+		[madeline right normal]
+			You can also try out the finale of Arphimigon's D-Sides by getting "Arphimigon's D-Sides: After-Story", but it's harder than the main chapters!
+		[madeline left normal]
+			Have fun in your Celeste journey!
+
+	arphimigons_dsides_thanks_vertigo=
+		[theo right normal upsidedown]
+			Check it out!
+		[madeline left surprised]
+			You're... upside down!
+		[theo right normal upsidedown]
+			Yeah! I put {~}a lot{/~} of glue on these boots to make this work.
+		[theo right thinking upsidedown]
+			Now I'm stuck.
+		[madeline left normal]
+			The glue will unstick eventually!
+		[theo right serious upsidedown]
+			I'm going to hit my head when I fall.
+		[madeline left distracted]
+			I hit my head earlier, a lot of times actually.
+		[madeline left together]
+			So you will be fine!
+		[theo right normal upsidedown]
+			Alright! Here's to waiting.
+
+	arphimigons_dsides_thanks_wavedash=
+		Don't know how to wavedash?
+		If you can't, you won't like what comes next.
+		Come back when you can! (Play Farewell!)
+
+	arphimigons_dsides_thanks_pole=
+		[madeline left normal]
+			Pole!
+
+	arphimigons_dsides_thanks_coffee=
+		[madeline left peaceful]
+			Mmm... coffee. I'll get myself some when I get home.
