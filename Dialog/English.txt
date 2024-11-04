@@ -85,26 +85,39 @@
 # --- Chapter Titles --- #
 	Huntress_HuntressSides= Huntress's D-Sides
 
-	Huntress_HuntressSides_0_Huntress= Prolouge
-	HuntressSides_0_Huntress= Prolouge
+	Huntress_HuntressSides_0_Huntress= Prologue
+	HuntressSides_0_Huntress= Prologue
 
 	Huntress_HuntressSides_1_Huntress= Uninhabitable City
 	HuntressSides_1_Huntress= Uninhabitable City
 
 	Huntress_HuntressSides_2_Huntress= Ruined Site
 	HuntressSides_2_Huntress= Ruined Site
-# --- Poems --- #
-	poem_Huntress_Sides_0_Huntress_A= Top text
-	poem_Huntress_Sides_1_Huntress_A= No more spikes >:(
-	poem_dsides_2_OldSite_A= Dreaming
-	poem_dsides_3_Resort_A= Endurance
-	poem_dsides_4_Ridge_A= Cloudy Memories
-	poem_dsides_5_Temple_A= Weight Lifting
-	poem_dsides_6_Reflection_A= Resurrection{n}Confirm - Gold Room{n}Grab+Confirm-Exit Map
-	poem_dsides_7_Summit_A= A New Journey's Beginning
-	poem_dsides_8_Thanks_A= Wrong way, go back!
-	poem_dsides_9_Core_A= Beautiful Spaghetti
+	
+	Huntress_HuntressSides_3_Huntress= Overrun Hotel
+	HuntressSides_3_Huntress= Overrun Hotel
 
+	Huntress_HuntressSides_4_Huntress= Serene Skyline
+	HuntressSides_4_Huntress= Serene Skyline
+
+	Huntress_HuntressSides_5_Huntress= Reflected Ruins
+	HuntressSides_5_Huntress= Reflected Ruins
+
+	Huntress_HuntressSides_6_Huntress= Subterranean
+	HuntressSides_6_Huntress= Subterranean
+
+	Huntress_HuntressSides_7_Huntress= The Climb
+	HuntressSides_7_Huntress= The Climb
+
+# --- Poems --- #
+	poem_Huntress_Sides_0_Huntress_A= Prologue
+	poem_Huntress_Sides_1_Huntress_A= Spikey
+	poem_Huntress_Sides_2_Huntress_A= Dreamy
+	poem_Huntress_Sides_3_Huntress_A= Dusty
+	poem_Huntress_Sides_4_Huntress_A= Windy
+	poem_Huntress_Sides_5_Huntress_A= Scary
+	poem_Huntress_Sides_6_Huntress_A= Feisty
+	poem_Huntress_Sides_7_Huntress_A= Finale
 
 # --- Prologue --- #
 	Huntress_Sides_Prolouge_1=

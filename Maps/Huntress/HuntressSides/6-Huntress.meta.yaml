@@ -1,0 +1,23 @@
+Mountain:
+    Idle:
+        Position: [ 1.113, 12.154, 6.334 ]
+        Target: [ -0.086, 11.118, 5.115 ]
+    Select:
+        Position: [ 1.113, 12.154, 6.334 ]
+        Target: [ 0.945, 11.175, 4.599 ]
+    Zoom:
+        Position: [ -0.165, 9.961, 2.608 ]
+        Target: [ -0.726, 8.975, 0.961 ]
+    Cursor: [ -1.464781, 9.340404, 0.830584 ]
+    State: 0
+
+CompleteScreen:
+  Atlas: "Endscreens/Huntrox77/Tsides"
+  Start: [0.0, 0.0]
+  Center: [0.0, 0.0]
+  Offset: [0.0, 0.0]
+  Layers:
+    - Type: "layer"
+      Images: ["6t"]
+      Position: [0.0, 0.0]
+      Scroll: [0.0]
